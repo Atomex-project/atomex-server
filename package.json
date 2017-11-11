@@ -11,11 +11,18 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/passport": "^0.4.1",
+    "@types/passport-http": "^0.3.3",
     "typescript": "^2.6.1"
   },
   "dependencies": {
+    "@loopback/authentication": "^4.0.0-alpha.15",
     "@loopback/core": "^4.0.0-alpha.20",
+    "@loopback/repository": "^4.0.0-alpha.15",
     "@loopback/rest": "^4.0.0-alpha.7",
-    "@types/node": "^8.0.50"
+    "@types/node": "^8.0.50",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-strategy": "^1.0.0"
   }
 }
